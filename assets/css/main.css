@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-current-content {
+  color: green;
+}
+
+.custom-current-content::after {
+  content: " - 正解!";
+}
+
+.custom-wrong-content {
+  color: red;
+}
+
+.custom-wrong-content::after {
+  content: " - 不正解...";
+}
